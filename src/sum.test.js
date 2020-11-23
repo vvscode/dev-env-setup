@@ -1,7 +1,7 @@
-import { sum } from './sum';
+import { sum } from "./sum";
 
-describe('sum', () => {
-  it('returns sum of params', () => {
+describe("sum", () => {
+  it("returns sum of params", () => {
     expect(sum(1, 2)).toBe(3);
   });
 });
